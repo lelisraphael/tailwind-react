@@ -1,10 +1,10 @@
 import './App.css';
-import Container from './components/container';
-import BoxSizing from './components/boxsizing';
-import Display from './components/display';
-import Overflow from './components/overflow'
-import Positions from './components/positions';
-import Zindex from './components/zindex';
+import Container from './components/basic/container';
+import BoxSizing from './components/basic/boxsizing';
+import Display from './components/basic/display';
+import Overflow from './components/basic/overflow'
+import Positions from './components/basic/positions';
+import Zindex from './components/basic/zindex';
 import Direction from './components/flexbox/directions';
 
 function App() {
