@@ -6,18 +6,32 @@ import Overflow from './components/basic/overflow'
 import Positions from './components/basic/positions';
 import Zindex from './components/basic/zindex';
 import Direction from './components/flexbox/directions';
+import Wrap from './components/flexbox/wrap';
+import Order from './components/flexbox/order';
+import Cols from './components/grid/cols'
+
 
 function App() {
   return (
     <>
-      {/* <Container />
+      {
+      /* 
+      Container
+      <Container />
+      Boxsizing
       <BoxSizing />
+      Display
       <Display />
+      Overflow
       <Overflow />
+      Positions
       <Positions />
+      Z-index
       <Zindex /> */}
-      <Direction/>
-
+      <Direction />
+      <Wrap />
+      <Order/>
+      <Cols/>
     </>
   );
 }
