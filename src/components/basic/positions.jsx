@@ -7,6 +7,8 @@ const Positions = () => {
                 Absolute com elemento pai
             </div>
         </div >
+
+        
     )
 }
 export default Positions;
